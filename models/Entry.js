@@ -2,6 +2,7 @@ import mongoose from 'mongoose'
 const entrySchema = new mongoose.Schema({
   date: String,
   verifier: String,
+  customer:String,
   model: String,
   serial: String,
   year: String,
